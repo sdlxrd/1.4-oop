@@ -22,5 +22,5 @@ public:
 	bool Display(HomeLib a[], int& x);
 	void Search(HomeLib a[], int& x);
 	void Add(HomeLib a[], int& x);
-	void Kill(HomeLib a[], int& x);
+	void Delete(HomeLib a[], int& x);
 };

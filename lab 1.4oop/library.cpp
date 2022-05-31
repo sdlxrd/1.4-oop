@@ -42,7 +42,7 @@ void HomeLib::Menu(HomeLib a[], int& x)
 			a[x].Search(a, x);
 			break;
 		case 2:
-			a[x].Kill(a, x);
+			a[x].Delete(a, x);
 			break;
 		case 3:
 			a[x].Add(a, x);
@@ -139,7 +139,7 @@ void HomeLib::Search(HomeLib a[], int& x)
 	} while (seaNum != 4);
 }
 
-void HomeLib::Kill(HomeLib a[], int& x)
+void HomeLib::Delete(HomeLib a[], int& x)
 {
 	int del;
 
